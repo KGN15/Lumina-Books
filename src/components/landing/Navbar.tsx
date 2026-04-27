@@ -9,7 +9,7 @@ const links = [
   { label: "FAQ", href: "#faq" },
 ];
 
-const DOWNLOAD_URL = "../../assets/Lumina-books-Setup-1.0.0.exe";
+const DOWNLOAD_URL = "https://drive.google.com/file/d/12Lyo6C2pHtcLmWDM5YFCCwrhCViAWsgE/view";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
