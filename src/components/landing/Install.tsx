@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Download, MousePointer2, Rocket, ShieldCheck } from "lucide-react";
 
 const DOWNLOAD_URL =
-  "https://drive.google.com/file/d/12Lyo6C2pHtcLmWDM5YFCCwrhCViAWsgE/view";
+  "../../assets/Lumina-books-Setup-1.0.0.exe";
 
 const steps = [
   {

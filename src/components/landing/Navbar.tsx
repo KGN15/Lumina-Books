@@ -9,8 +9,7 @@ const links = [
   { label: "FAQ", href: "#faq" },
 ];
 
-const DOWNLOAD_URL =
-  "https://drive.google.com/file/d/12Lyo6C2pHtcLmWDM5YFCCwrhCViAWsgE/view";
+const DOWNLOAD_URL = "../../assets/Lumina-books-Setup-1.0.0.exe";
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -24,9 +23,7 @@ export function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "py-3"
-          : "py-5"
+        scrolled ? "py-3" : "py-5"
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6">

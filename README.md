@@ -5,6 +5,7 @@
 > Fast, secure, offline-first desktop software built for real-world shops.
 
 ---
+### Live Link (https://myluminabooks.vercel.app/)
 
 ## 🚀 Overview
 

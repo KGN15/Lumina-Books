@@ -11,7 +11,7 @@ import {
 import { DashboardMock } from "./DashboardMock";
 
 const DOWNLOAD_URL =
-  "https://drive.google.com/file/d/12Lyo6C2pHtcLmWDM5YFCCwrhCViAWsgE/view";
+  "../../assets/Lumina-books-Setup-1.0.0.exe";
 
 export function Hero() {
   return (
