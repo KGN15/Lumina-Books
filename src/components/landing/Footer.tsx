@@ -71,8 +71,7 @@ export function Footer() {
         <div className="mt-10 pt-6 border-t border-black/5 flex flex-wrap items-center justify-between gap-4 text-xs text-coffee/55">
           <div>© {new Date().getFullYear()} Lumina Books. All rights reserved.</div>
           <div className="inline-flex items-center gap-1.5">
-            Built with <Heart className="h-3.5 w-3.5 text-amber-brand fill-current" /> by{" "}
-            <span className="font-semibold text-green-700">BITFORGE AGENCY</span>
+            Built with <Heart className="h-3.5 w-3.5 text-amber-brand fill-current" /> 
           </div>
         </div>
       </div>
