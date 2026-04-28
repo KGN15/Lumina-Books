@@ -11,17 +11,15 @@ export function Footer() {
                 <BookOpen className="h-5 w-5" />
               </div>
               <div>
-                <div className="text-sm font-semibold text-coffee">
-                  Lumina Books
-                </div>
+                <div className="text-sm font-semibold text-coffee">Lumina Books</div>
                 <div className="text-[11px] uppercase tracking-[0.16em] text-coffee/50">
                   Smart Inventory · POS
                 </div>
               </div>
             </div>
             <p className="mt-4 text-sm text-coffee/65 max-w-sm leading-relaxed">
-              A focused desktop solution for modern bookstores — fast, secure,
-              offline-ready, and yours to keep.
+              A focused desktop solution for modern bookstores — fast, secure, offline-ready, and
+              yours to keep.
             </p>
           </div>
 
@@ -30,10 +28,26 @@ export function Footer() {
               Explore
             </div>
             <ul className="mt-4 space-y-2 text-sm">
-              <li><a href="#features" className="text-coffee/75 hover:text-amber-brand">Features</a></li>
-              <li><a href="#demo" className="text-coffee/75 hover:text-amber-brand">Live Demo</a></li>
-              <li><a href="#install" className="text-coffee/75 hover:text-amber-brand">Install Guide</a></li>
-              <li><a href="#faq" className="text-coffee/75 hover:text-amber-brand">FAQ</a></li>
+              <li>
+                <a href="#features" className="text-coffee/75 hover:text-amber-brand">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="#demo" className="text-coffee/75 hover:text-amber-brand">
+                  Live Demo
+                </a>
+              </li>
+              <li>
+                <a href="#install" className="text-coffee/75 hover:text-amber-brand">
+                  Install Guide
+                </a>
+              </li>
+              <li>
+                <a href="#faq" className="text-coffee/75 hover:text-amber-brand">
+                  FAQ
+                </a>
+              </li>
             </ul>
           </div>
 
